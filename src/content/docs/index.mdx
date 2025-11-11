@@ -1,40 +1,41 @@
 ---
-title: Welcome to Starlight
-description: Get started building your docs site with Starlight.
+title: Welcome to RyanGst blog!
+description: Notes on system design, TypeScript, DevOps, and career.
+
 template: splash # Remove or comment out this line to display the site sidebar on this page.
 hero:
-  tagline: Congrats on setting up a new Starlight project!
+  tagline: Notes on system design, TypeScript, DevOps, and career.
   image:
     file: ../../assets/houston.webp
   actions:
-    - text: Example Guide
+    - text: Read Posts
       link: /guides/example/
       icon: right-arrow
-    - text: Read the Starlight docs
-      link: https://starlight.astro.build
+    - text: Portifolio
+      link: https://ryanmac.dev
       icon: external
       variant: minimal
 ---
 
-import { Card, CardGrid } from '@astrojs/starlight/components';
-
-## Next steps
+import { Card, CardGrid } from "@astrojs/starlight/components";
 
 <CardGrid stagger>
-	<Card title="Update content" icon="pencil">
-		Edit `src/content/docs/index.mdx` to see this page change.
-	</Card>
-	<Card title="Change page layout" icon="document">
-		Delete `template: splash` in `src/content/docs/index.mdx` to display a
-		sidebar on this page.
-	</Card>
-	<Card title="Add new content" icon="add-document">
-		Add Markdown or MDX files to `src/content/docs` to create new pages.
-	</Card>
-	<Card title="Configure your site" icon="setting">
-		Edit your `sidebar` and other config in `astro.config.mjs`.
-	</Card>
-	<Card title="Read the docs" icon="open-book">
-		Learn more in [the Starlight Docs](https://starlight.astro.build/).
-	</Card>
+  <Card title="System Design" icon="diagram" href="/tags/system-design/">
+    Trade-offs, scalability, queues, caching, and real-world incident lessons.
+  </Card>
+  <Card title="TypeScript / JS" icon="code" href="/tags/typescript/">
+    Patterns, DX tips, monorepos, build tooling, and testing that actually runs
+    in CI.
+  </Card>
+  <Card title="DevOps & Infra" icon="cloud" href="/tags/devops/">
+    AWS CDK, containers, networking, Traefik, Observability, and cost-aware
+    setups.
+  </Card>
+  <Card title="Etternizer" icon="sparkles" href="/tags/etternizer/">
+    Notes from building my SaaS: architecture, queues, storage tiers, and
+    payments.
+  </Card>
+  <Card title="Talks & Teaching" icon="open-book" href="/tags/talks/">
+    Slides, tutorials, and materials from UTFPR tutoring and workshops.
+  </Card>
 </CardGrid>
