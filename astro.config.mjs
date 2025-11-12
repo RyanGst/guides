@@ -28,8 +28,9 @@ export default defineConfig({
           label: "English",
           lang: "en",
         },
-        "pt-BR": {
+        "pt-br": {
           label: "Português (Brasil)",
+          lang: "pt-br",
         },
       },
       social: [
@@ -43,6 +44,9 @@ export default defineConfig({
         {
           label: "Guides",
           autogenerate: { directory: "guides" },
+          translations: {
+            "pt-br": "Guias",
+          },
         },
       ],
     }),
