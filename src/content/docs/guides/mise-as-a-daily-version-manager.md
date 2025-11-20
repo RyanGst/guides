@@ -1,6 +1,7 @@
 ---
 title: Mise as a Daily Version Manager
 description: Mise is a next-gen version manager and task runner
+giscus: true
 ---
 
 Mise, pronounced "MEEZ ahn plahs", it's a version manager of version managers. It became a structural part of my daily workflows as a software engineer.
