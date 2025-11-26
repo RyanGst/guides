@@ -2,6 +2,7 @@
 import { defineConfig } from "astro/config";
 import starlight from "@astrojs/starlight";
 import starlightGiscus from "starlight-giscus";
+import starlightLinksValidator from "starlight-links-validator";
 
 import cloudflare from "@astrojs/cloudflare";
 
@@ -11,6 +12,7 @@ export default defineConfig({
     starlight({
       title: "ryangst",
       plugins: [
+        starlightLinksValidator(),
         starlightGiscus({
           repo: "ryangst/guides",
           repoId: "R_kgDOQTxF8A",
