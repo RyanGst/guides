@@ -42,5 +42,5 @@ If you are a developer working with modern JavaScript or TypeScript, you constan
 
 This blog post is a transcription of a video I've done some time ago:
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/JDKMh1dzXVg?si=d38Cc2WUE193dNu6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+<iframe width="560" height="100%" src="https://www.youtube.com/embed/JDKMh1dzXVg?si=d38Cc2WUE193dNu6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
