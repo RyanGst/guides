@@ -50,9 +50,15 @@ export default defineConfig({
             "pt-br": "Guias",
           },
         },
+        {
+          label: "webdev",
+          autogenerate: { directory: "webdev" },
+          translations: {
+            "pt-br": "Desenvolvimento Web",
+          },
+        },
       ],
     }),
   ],
   adapter: cloudflare(),
 });
-

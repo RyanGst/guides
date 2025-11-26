@@ -1,12 +1,12 @@
 ---
-title: "Bundling vs. Transpiling: Clarifying the Two Pillars of Modern TypeScript Builds"
-description: Let's hop into JS history a bit.
+title: "Bundling vs. Transpiling"
+description: "Clarifying the Two Pillars of Modern TypeScript Builds"
 giscus: true
 ---
 
 If you are a developer working with modern JavaScript or TypeScript, you constantly interact with two core concepts: **bundling** and **transpiling**. While often used together, they serve distinctly different purposes in the build process.
 
-![[Pasted image 20251126111200.png]]
+![esbuild-benchmark](../../../assets/esbuild-benchmark.png)
 
 ## 1. Transpiling: The Language Translator
 
@@ -38,8 +38,9 @@ If you are a developer working with modern JavaScript or TypeScript, you constan
 | **Primary Goal** | Optimize loading, minimize I/O, simplify deployment. | Ensure language compatibility.                  |
 | **Example Tool** | Browserify, Webpack, esbuild, Rollup.                | Babel, Bun's internal transpiler, `tsc`.        |
 
-## See also:
+## See also
 
 This blog post is a transcription of a video I've done some time ago:
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JDKMh1dzXVg?si=d38Cc2WUE193dNu6" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
