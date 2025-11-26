@@ -1,6 +1,7 @@
 ---
 title: Mise como Gerenciador Diário de Versões
 description: Um guia no meu novo site de docs com Starlight.
+giscus: true
 ---
 
 Mise, pronunciado “MEEZ ahn plahs”, é um gerenciador de versões de gerenciadores de versões. Virou uma peça estrutural do meu fluxo diário como software engineer.
