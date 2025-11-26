@@ -34,9 +34,10 @@ export default defineConfig({
         },
         "pt-br": {
           label: "Português (Brasil)",
-          lang: "pt-br",
+          lang: "pt-BR",
         },
       },
+      defaultLocale: "root",
       social: [
         {
           icon: "github",
