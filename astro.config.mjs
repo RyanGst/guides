@@ -12,6 +12,7 @@ export default defineConfig({
   site: config.site,
   integrations: [
     starlight({
+      favicon: "/favicon.ico",
       title: config.title,
       description: config.description,
       plugins: [
