@@ -20,6 +20,9 @@ importers:
       astro-og-canvas:
         specifier: ^0.7.2
         version: 0.7.2(astro@5.15.5(@types/node@24.10.0)(rollup@4.53.2)(typescript@5.9.3))
+      canvaskit-wasm:
+        specifier: ^0.40.0
+        version: 0.40.0
       sharp:
         specifier: ^0.34.2
         version: 0.34.5
