@@ -5,12 +5,15 @@ import starlightGiscus from "starlight-giscus";
 import starlightLinksValidator from "starlight-links-validator";
 
 import cloudflare from "@astrojs/cloudflare";
+import { config } from "./src/config";
 
 // https://astro.build/config
 export default defineConfig({
+  site: config.site,
   integrations: [
     starlight({
-      title: "ryangst",
+      title: config.title,
+      description: config.description,
       plugins: [
         starlightLinksValidator(),
         starlightGiscus({
@@ -38,13 +41,10 @@ export default defineConfig({
         },
       },
       defaultLocale: "root",
-      social: [
-        {
-          icon: "github",
-          label: "GitHub",
-          href: "https://github.com/ryangst",
-        },
-      ],
+      social: config.social,
+      editLink: {
+        baseUrl: "https://github.com/RyanGst/guides",
+      },
       sidebar: [
         {
           label: "Guides",
