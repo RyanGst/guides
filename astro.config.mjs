@@ -29,6 +29,7 @@ export default defineConfig({
         alt: "ryangst Logo",
         replacesTitle: true,
       },
+      routeMiddleware: "./src/routeData.ts",
       customCss: ["./src/styles/custom.css"],
       locales: {
         root: {
@@ -43,7 +44,7 @@ export default defineConfig({
       defaultLocale: "root",
       social: config.social,
       editLink: {
-        baseUrl: "https://github.com/RyanGst/guides",
+        baseUrl: "https://github.com/RyanGst/guides/edit/main",
       },
       sidebar: [
         {
